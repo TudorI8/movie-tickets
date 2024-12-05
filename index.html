@@ -9,6 +9,97 @@
 </head>
 <body>
     <h1>🎟 Movie Tickets</h1>
+
+    <div class="movie-container">
+        <label>Select a movie:</label>
+        <select id="movie">
+            <option value="10">Rocky ($10)</option>
+            <option value="12">Jocker ($12)</option>
+            <option value="8">Home Alone ($8)</option>
+            <option value="9">Lord of the Rings ($9)</option>
+        </select>
+    </div>
+    <div class="tickets">
+        <p class="text">
+            Number of tickets: <span id="count">0</span> <br>
+        </p>
+        <p class="text">
+            Total Price: $<span id="total">0</span>
+        </p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div><div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div><div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+        </div><div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div><div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div><div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+        </div>
+    </div>
+
+    <div class="legend">
+        <ul class="legend-list">
+            <li>
+                <div class="seat unoccupied"></div>Unoccupied
+            </li>
+            <li>
+                <div class="seat selected"></div>Selected
+            </li>
+            <li>
+                <div class="seat occupied"></div>Occupied
+            </li>
+        </ul>
+    </div>
+
     <script src="app.js"></script>
 </body>
 </html>
