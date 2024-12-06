@@ -10,10 +10,16 @@ body {
     height: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
+    transform: scale(1.2);
+}
+
+h1 {
+    margin: 100px 0;
 }
 
 .tickets {
     text-align: center;
+    margin: 25px 0;
 }
 
 .text {
@@ -85,7 +91,11 @@ p span {
     transform: scale(1.2);
 }
 
-.legend .seat:not(.occupied):hover {
+.legend {
+    margin:25px
+}
+
+.legend .seat:hover {
     cursor: default;
     transform: scale(1);
 }
